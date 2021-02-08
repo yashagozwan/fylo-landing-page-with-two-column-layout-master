@@ -1,0 +1,435 @@
+header nav, #showcase-1 .showcase-1-content, #showcase-3 .showcase-3-content {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 33px;
+}
+
+.l-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 41px;
+}
+
+header {
+  font-family: "Raleway", sans-serif;
+}
+
+header nav {
+  margin-top: 33px;
+  justify-content: space-between;
+}
+
+header nav .nav-logo img {
+  width: 120px;
+}
+
+header nav ul {
+  display: inherit;
+}
+
+header nav ul li a {
+  color: #070439;
+  font-size: 15px;
+}
+
+header nav ul li:not(:last-child) a {
+  margin-right: 30px;
+}
+
+#showcase-1 {
+  font-family: "Raleway", sans-serif;
+}
+
+#showcase-1 .showcase-1-content {
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+#showcase-1 .showcase-1-content .left-content {
+  padding-right: 1rem;
+}
+
+#showcase-1 .showcase-1-content .left-content div h1 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+#showcase-1 .showcase-1-content .left-content div p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#showcase-1 .showcase-1-content .left-content div form {
+  width: 80%;
+  display: flex;
+}
+
+#showcase-1 .showcase-1-content .left-content div form input {
+  outline: none;
+  flex-grow: 2;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #070439;
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#showcase-1 .showcase-1-content .left-content div form button {
+  flex-grow: 1;
+  border: none;
+  background: #3065f8;
+  color: #f6f6fe;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#showcase-1 .showcase-1-content .left-content div form button:hover {
+  background: #4978f8;
+}
+
+#showcase-2 {
+  margin-top: 200px;
+  background-image: url("../img/bg-curve-desktop.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+#showcase-2 .showcase-2-content {
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#showcase-2 .showcase-2-content .left-content {
+  flex-grow: 1;
+  margin-right: 50px;
+}
+
+#showcase-2 .showcase-2-content .left-content div h1 {
+  margin-bottom: 3rem;
+}
+
+#showcase-2 .showcase-2-content .left-content div p {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+#showcase-2 .showcase-2-content .left-content div a {
+  color: #3c9f8f;
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #3c9f8f;
+  margin-bottom: 3rem;
+}
+
+#showcase-2 .showcase-2-content .left-content div a h3 {
+  margin-right: 10px;
+}
+
+#showcase-2 .showcase-2-content .left-content div a img {
+  width: 25px;
+  height: 25px;
+}
+
+#showcase-2 .showcase-2-content .left-content div .card {
+  width: 400px;
+  border-radius: 10px;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#showcase-2 .showcase-2-content .left-content div .card .quote {
+  width: 20px;
+  margin-bottom: 0.5rem;
+}
+
+#showcase-2 .showcase-2-content .left-content div .card p {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+#showcase-2 .showcase-2-content .left-content div .card .person {
+  display: flex;
+  align-items: center;
+}
+
+#showcase-2 .showcase-2-content .left-content div .card .person img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+#showcase-2 .showcase-2-content .left-content div .card .person-content h4 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+
+#showcase-2 .showcase-2-content .left-content div .card .person-content p {
+  line-height: 0;
+  font-size: 11px;
+}
+
+#showcase-2 .showcase-2-content .right-content {
+  flex-basis: 70%;
+}
+
+#showcase-3 {
+  background: #585989;
+  color: #f6f6fe;
+}
+
+#showcase-3 .showcase-3-content {
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+#showcase-3 .showcase-3-content div {
+  flex: 1;
+}
+
+#showcase-3 .showcase-3-content .left-content {
+  padding-right: 2rem;
+}
+
+#showcase-3 .showcase-3-content .left-content div h1 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+#showcase-3 .showcase-3-content .right-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+#showcase-3 .showcase-3-content .right-content form input {
+  outline: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+#showcase-3 .showcase-3-content .right-content form button {
+  width: 50%;
+  border: none;
+  background: #3065f8;
+  color: #f6f6fe;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0.75rem 1.5rem;
+}
+
+#showcase-3 .showcase-3-content .right-content form button:hover {
+  background: #4978f8;
+}
+
+#showcase-footer {
+  background: #070439;
+}
+
+#showcase-footer .showcase-footer-content {
+  padding: 100px 0;
+}
+
+#showcase-footer .showcase-footer-content .logo-footer {
+  margin-bottom: 1rem;
+}
+
+#showcase-footer .showcase-footer-content .logo-footer svg {
+  fill: #fff;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box img {
+  width: 20px;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box ul li {
+  margin-bottom: 1.5rem;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box ul li span {
+  color: #f6f6fe;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box ul li a {
+  color: #f6f6fe;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box ul li .contact {
+  display: flex;
+  align-items: center;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box ul li .contact img {
+  margin-right: 10px;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box ul li .social-media {
+  display: flex;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box ul li .social-media a {
+  margin-right: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #f6f6fe;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+#showcase-footer .showcase-footer-content .footer-contact .box:not(:first-child) {
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  #showcase-1 .showcase-1-content {
+    flex-direction: column-reverse;
+  }
+  #showcase-1 .showcase-1-content .left-content {
+    margin-top: 50px;
+    text-align: center;
+  }
+  #showcase-1 .showcase-1-content .left-content div h1 {
+    font-size: 32px;
+  }
+  #showcase-1 .showcase-1-content .left-content div p {
+    font-size: 17px;
+  }
+  #showcase-1 .showcase-1-content .left-content div form {
+    width: 100%;
+    flex-direction: column;
+  }
+  #showcase-1 .showcase-1-content .left-content div form input {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  #showcase-1 .showcase-1-content .right-content {
+    margin-top: 50px;
+  }
+  #showcase-2 {
+    background-image: url("../img/bg-curve-mobile.svg");
+  }
+  #showcase-2 .showcase-2-content {
+    flex-direction: column-reverse;
+    padding-top: 150px;
+  }
+  #showcase-2 .showcase-2-content .left-content {
+    margin: 0;
+  }
+  #showcase-2 .showcase-2-content .left-content div {
+    text-align: center;
+  }
+  #showcase-2 .showcase-2-content .left-content div h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+  #showcase-2 .showcase-2-content .left-content div p {
+    text-align: left;
+  }
+  #showcase-2 .showcase-2-content .left-content div a {
+    justify-content: center;
+  }
+  #showcase-2 .showcase-2-content .left-content div .card {
+    width: 100%;
+    text-align: left;
+  }
+  #showcase-2 .showcase-2-content .left-content div .card .person-content {
+    text-align: left;
+  }
+  #showcase-2 .showcase-2-content .right-content {
+    margin-bottom: 3rem;
+  }
+  #showcase-3 .showcase-3-content {
+    flex-direction: column;
+  }
+  #showcase-3 .showcase-3-content .left-content {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #showcase-3 .showcase-3-content .right-content {
+    width: 80%;
+  }
+  #showcase-3 .showcase-3-content .right-content form button {
+    width: 100%;
+  }
+  #showcase-footer .showcase-footer-content {
+    padding: 0;
+    padding-top: 5rem;
+  }
+  #showcase-footer .showcase-footer-content .logo-footer {
+    margin-bottom: 2rem;
+  }
+  #showcase-footer .showcase-footer-content .footer-contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #showcase-footer .showcase-footer-content .footer-contact .box {
+    margin-bottom: 2rem;
+  }
+  #showcase-footer .showcase-footer-content .footer-contact .box ul li .social-media {
+    justify-content: center;
+  }
+  #showcase-footer .showcase-footer-content .footer-contact .box:not(:first-child) {
+    padding-left: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
